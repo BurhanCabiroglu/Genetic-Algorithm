@@ -1,5 +1,5 @@
 # Genetic Algorithm - Java
-## Travel Salesman Problem
+## Travel Salesman Problem Solving
 Very fast Genetic Algorithm developed with java. Solving Travel Salesman Problem
 
 
@@ -19,26 +19,28 @@ Very fast Genetic Algorithm developed with java. Solving Travel Salesman Problem
 
 
 ## Main Methods
+    • #### Create_Population
+    • #### GetFitness
+    • #### GeneticAlgorithm
+    • #### NextGeneration
+    • #### Sort
+    • #### Mutate
+    • #### CrossingOver
 
-### Create_Population
-### getFitness
-### GeneticAlgorithm
-### NextGeneration
-### sort
 
 ### GeneticAlgorithm
 <img src="https://github.com/BurhanCabiroglu/Genetic-Algorithm/blob/main/images/mainFunc.png" width="800">
 
 # How To Use
 
-For using this Framework, first of all, create "<b>City's ArrayList</b>" or Travel Tour List. Then create <b>Population()</b> method.Population class has 5 parameters. They are TourList, mutateRate, eliteSize, popSize. 
+For using this Framework, first of all, create "<b>City's ArrayList</b>" or Travel Tour List. Then create <b>Population</b> class. Population class has 5 parameters. They are TourList, mutateRate, eliteSize,generation and popSize. 
 
-Then call <b>.GeneticAlgorithm</b> method. This method return best chromosome result.
+Then call <b>.GeneticAlgorithm()</b> method. This method return best chromosome result.
 
-<img src="https://github.com/BurhanCabiroglu/Genetic-Algorithm/blob/main/images/use.png" width="800">
+<img src="https://github.com/BurhanCabiroglu/Genetic-Algorithm/blob/main/images/use.png" width="1000">
 
 
 
 # Best Result 
-<img src="https://github.com/BurhanCabiroglu/Genetic-Algorithm/blob/main/images/res.png" width="800">
+<img src="https://github.com/BurhanCabiroglu/Genetic-Algorithm/blob/main/images/res.png" width="1000">
 
