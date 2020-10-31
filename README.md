@@ -19,11 +19,11 @@ Very fast Genetic Algorithm developed with java. Solving Travel Salesman Problem
 
 
 ## Main Methods
-    •  Create_Population
+    •  CreatePopulation
     •  GetFitness
     •  GeneticAlgorithm
     •  NextGeneration
-    •  Sort
+    •  SortPopulation
     •  Mutate 
     •  CrossingOver
 
